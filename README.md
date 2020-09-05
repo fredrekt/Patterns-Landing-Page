@@ -2,7 +2,7 @@
 Landing page template made by me (Fred Garingo).
 
 ## Live site
-[Github Pages](https://fredrekt.github.io/Patterns-Landing-Page/)
+[Github Pages](https://fredrekt.github.io/Patterns-Landing-Page/)\
 [Netlify](https://fredrekt.github.io/Patterns-Landing-Page/)
 
 ## Template - CRA
