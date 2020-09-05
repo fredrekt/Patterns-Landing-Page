@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import { Nav, NavItem, Collapse } from "shards-react";
 import HamburgerMenu from 'react-hamburger-menu';
 import { Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom'
 
-const Navbar = () => {
+const Navbar = ({location}) => {
     const [open, setOpen] = useState(false);
+
+    const { pathname } = location
 
     return (
         <Nav className="p-5 pl-5 position-absolute d-flex flex-column">
@@ -24,6 +27,9 @@ const Navbar = () => {
         </NavItem>
         <Collapse open={open}>
           <ul className="list-unstyled py-4">
+              {pathname !== '/' && <li className="py-2">
+                  <Link to="/" className="h4-responsive black-text">Home</Link>
+              </li>}
               <li className="py-2">
                   <Link to="/about" className="h4-responsive black-text">About</Link>
               </li>
@@ -39,4 +45,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar
+export default withRouter(Navbar)
