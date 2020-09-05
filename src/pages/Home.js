@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div>
             <Helmet>
-                <title>Home</title>
+                <title>Home | Patterns</title>
                 <meta name="description" content="This is home meta data"/>
             </Helmet>
         <MDBContainer className="" fluid>

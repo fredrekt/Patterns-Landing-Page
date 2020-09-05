@@ -8,7 +8,7 @@ const About = () => {
     return (
         <div>
             <Helmet>
-                <title>About</title>
+                <title>About | Patterns</title>
                 <meta name="description" content="This is about page meta data"/>
             </Helmet>
         <MDBContainer className="">

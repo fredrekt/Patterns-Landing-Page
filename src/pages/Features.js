@@ -13,7 +13,7 @@ const Features = () => {
     return (
         <div>
             <Helmet>
-                <title>Features</title>
+                <title>Features | Patterns</title>
                 <meta name="description" content="This is the features section"/>
             </Helmet>
         <MDBContainer className="hero-section py-5">

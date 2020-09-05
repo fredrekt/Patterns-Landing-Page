@@ -10,7 +10,7 @@ const Contact = () => {
     return (
         <div>
             <Helmet>
-                <title>Contact</title>
+                <title>Contact | Patterns</title>
             </Helmet>
         <MDBContainer className="">
             <MDBRow className="hero-section">
