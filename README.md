@@ -1,3 +1,10 @@
+# Landing Page Template - Patterns
+Landing page template made by me (Fred Garingo).
+
+## Live site
+https://fredrekt.github.io/
+
+## Template - CRA
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
