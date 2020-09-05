@@ -2,6 +2,7 @@ import React from 'react'
 import {Helmet} from "react-helmet";
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 import { Button } from 'shards-react'
+import inn from '../assets/images/Inn.png'
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
         <MDBContainer className="" fluid>
             <MDBRow className="hero-section">
                 <MDBCol className="align-self-center px-5">
-                    <h1 className="font-weight-bold display-3">Hello Home</h1>
+                    <h1 className="font-weight-bold display-3">Landing Page</h1>
                     <p className="lead w-75">
                     Generate font combinations with deep learningGenerate font combinations with deep learning
                     </p>
@@ -21,7 +22,7 @@ const Home = () => {
                         Get Started
                     </Button>
                 </MDBCol>
-                <MDBCol style={{ backgroundImage: `url(https://products.ls.graphics/paaatterns/images/024-p-1080.png)` }} className="pr-0"/>
+                <MDBCol style={{ backgroundImage: `url(${inn})`, backgroundSize: `cover` }} className="pr-0"/>
             </MDBRow>
         </MDBContainer>
         </div>
