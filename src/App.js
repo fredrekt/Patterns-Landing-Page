@@ -4,19 +4,28 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Navbar from './components/Navbar';
 import Contact from './pages/Contact';
+import {Client as Styletron} from 'styletron-engine-atomic';
+import {Provider as StyletronProvider} from 'styletron-react';
+import {LightTheme, BaseProvider} from 'baseui';
+import Features from './pages/Features';
 
 const App = () => {
+  const engine = new Styletron();
+
   return (
-    <div>
-      <Router>
-        <Navbar/>
-        <Switch>
-          <Route path="/" exact component={Home}/>
-          <Route path="/about" exact component={About}/>
-          <Route path="/contact" exact component={Contact}/>
-        </Switch>
-      </Router>
-    </div>
+    <StyletronProvider value={engine}>
+      <BaseProvider theme={LightTheme}>
+        <Router>
+          <Navbar/>
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/contact" component={Contact}/>
+            <Route path="/features" component={Features}/>
+          </Switch>
+        </Router>
+      </BaseProvider>
+    </StyletronProvider>
   );
 }
 
