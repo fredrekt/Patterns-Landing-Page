@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Patterns - Landing Page",
+  "name": "An SPA React App, made by Fred Garingo.",
   "icons": [
     {
       "src": "favicon.ico",
