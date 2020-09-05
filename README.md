@@ -2,7 +2,8 @@
 Landing page template made by me (Fred Garingo).
 
 ## Live site
-https://fredrekt.github.io/
+[Github Pages](https://fredrekt.github.io/Patterns-Landing-Page/)
+[Netlify](https://fredrekt.github.io/Patterns-Landing-Page/)
 
 ## Template - CRA
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
