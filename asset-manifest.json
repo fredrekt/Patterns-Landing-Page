@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.16c1e934.chunk.css",
-    "main.js": "/static/js/main.e4bef5ab.chunk.js",
-    "main.js.map": "/static/js/main.e4bef5ab.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6c9debc2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6c9debc2.js.map",
-    "static/css/2.5ca62711.chunk.css": "/static/css/2.5ca62711.chunk.css",
-    "static/js/2.eee4490d.chunk.js": "/static/js/2.eee4490d.chunk.js",
-    "static/js/2.eee4490d.chunk.js.map": "/static/js/2.eee4490d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8b3404a7e87c78315a9cfdcec6a49e61.js": "/precache-manifest.8b3404a7e87c78315a9cfdcec6a49e61.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.5ca62711.chunk.css.map": "/static/css/2.5ca62711.chunk.css.map",
-    "static/css/main.16c1e934.chunk.css.map": "/static/css/main.16c1e934.chunk.css.map",
-    "static/js/2.eee4490d.chunk.js.LICENSE.txt": "/static/js/2.eee4490d.chunk.js.LICENSE.txt",
-    "static/media/Inn.png": "/static/media/Inn.5d04017b.png",
-    "static/media/Mataura.png": "/static/media/Mataura.f323cf2d.png",
-    "static/media/Taieri.png": "/static/media/Taieri.150556b4.png",
-    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
-    "static/media/all.min.css": "/static/media/fa-solid-900.ee09ad75.woff"
+    "main.css": "/Patterns-Landing-Page/static/css/main.16c1e934.chunk.css",
+    "main.js": "/Patterns-Landing-Page/static/js/main.8103ea4f.chunk.js",
+    "main.js.map": "/Patterns-Landing-Page/static/js/main.8103ea4f.chunk.js.map",
+    "runtime-main.js": "/Patterns-Landing-Page/static/js/runtime-main.1e211534.js",
+    "runtime-main.js.map": "/Patterns-Landing-Page/static/js/runtime-main.1e211534.js.map",
+    "static/css/2.568902b7.chunk.css": "/Patterns-Landing-Page/static/css/2.568902b7.chunk.css",
+    "static/js/2.eee4490d.chunk.js": "/Patterns-Landing-Page/static/js/2.eee4490d.chunk.js",
+    "static/js/2.eee4490d.chunk.js.map": "/Patterns-Landing-Page/static/js/2.eee4490d.chunk.js.map",
+    "index.html": "/Patterns-Landing-Page/index.html",
+    "precache-manifest.8827a92730bdac5ebf178200eb97cc00.js": "/Patterns-Landing-Page/precache-manifest.8827a92730bdac5ebf178200eb97cc00.js",
+    "service-worker.js": "/Patterns-Landing-Page/service-worker.js",
+    "static/css/2.568902b7.chunk.css.map": "/Patterns-Landing-Page/static/css/2.568902b7.chunk.css.map",
+    "static/css/main.16c1e934.chunk.css.map": "/Patterns-Landing-Page/static/css/main.16c1e934.chunk.css.map",
+    "static/js/2.eee4490d.chunk.js.LICENSE.txt": "/Patterns-Landing-Page/static/js/2.eee4490d.chunk.js.LICENSE.txt",
+    "static/media/Inn.png": "/Patterns-Landing-Page/static/media/Inn.5d04017b.png",
+    "static/media/Mataura.png": "/Patterns-Landing-Page/static/media/Mataura.f323cf2d.png",
+    "static/media/Taieri.png": "/Patterns-Landing-Page/static/media/Taieri.150556b4.png",
+    "static/media/mdb.css": "/Patterns-Landing-Page/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/Patterns-Landing-Page/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c9debc2.js",
-    "static/css/2.5ca62711.chunk.css",
+    "static/js/runtime-main.1e211534.js",
+    "static/css/2.568902b7.chunk.css",
     "static/js/2.eee4490d.chunk.js",
     "static/css/main.16c1e934.chunk.css",
-    "static/js/main.e4bef5ab.chunk.js"
+    "static/js/main.8103ea4f.chunk.js"
   ]
 }
