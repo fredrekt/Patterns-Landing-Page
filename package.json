@@ -1,4 +1,5 @@
 {
+  "homepage": "http://fredrekt.github.io/Patterns-Landing-Page",
   "name": "reactapp",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +21,8 @@
     "styletron-react": "^5.2.7"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -33,7 +36,6 @@
       "baseui/deprecated-component-api": "warn",
       "baseui/no-deep-imports": "warn"
     }
-
   },
   "browserslist": {
     "production": [
@@ -48,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-baseui": "^9.98.0"
+    "eslint-plugin-baseui": "^9.98.0",
+    "gh-pages": "^3.1.0"
   }
 }
