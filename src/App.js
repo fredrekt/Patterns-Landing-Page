@@ -17,8 +17,8 @@ const App = () => {
       <BaseProvider theme={LightTheme}>
         <Router>
           <Navbar/>
+          <Route path="/" exact component={Home}/>
           <Switch>
-            <Route path="/" exact component={Home}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/features" component={Features}/>
